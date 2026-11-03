@@ -1,0 +1,9 @@
+Thuật toán Huffman do David A. Huffman công bố năm 1952 khi còn là sinh viên tại MIT.
+Ý tưởng chính là gán mã ngắn cho ký hiệu xuất hiện nhiều và mã dài cho ký hiệu xuất hiện ít.
+Mã thu được là mã tiền tố: không có mã nào là tiền tố của mã khác, nên giải mã không nhập nhằng.
+Thuật toán thuộc lớp thuật toán tham lam: ở mỗi bước, ghép hai cây có tần suất nhỏ nhất.
+Trong giáo trình Algorithm Design của Kleinberg và Tardos, mục 4.8 chứng minh mã Huffman là tối ưu
+trong số các mã tiền tố, tức là có độ dài trung bình ABL nhỏ nhất.
+Nén Huffman được dùng bên trong nhiều định dạng phổ biến như ZIP (DEFLATE), PNG, JPEG và MP3.
+Trường Đại học Công nghệ Đông Á – bài kiểm tra môn Thiết kế và phân tích thuật toán.
+The quick brown fox jumps over the lazy dog. Data compression reduces storage and bandwidth.
